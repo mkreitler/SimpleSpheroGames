@@ -8,6 +8,8 @@
     <string name="stage_time">Search time: </string>
     <string name="seconds">sec</string>
     <string name="score">Score: </string>
+    <string name="player_won">You Won!</string>
+    <string name="player_lost">You Lost!</string>
     <string name="time">Time: </string>
     <string name="tap_to_play">Tap to start playing</string>
     <string name="game_over">GAME OVER</string>
@@ -20,6 +22,7 @@
     <string name="main_option_tilt_drive">Tilt Drive</string>
     <string name="main_option_slingshot">Slingshot</string>
     <string name="main_option_minefield">Minefield</string>
+    <string name="main_option_bear_race">Bear Race</string>
     <string name="main_action_start">[START]</string>
 
     <!-- Action Text -->
@@ -52,6 +55,9 @@
 
     <!-- Minefield Text -->
     <string name="minefield_title">Minefield</string>
+
+    <!-- Bear Race Text -->
+    <string name="bear_race_title">Bear Race</string>
 
     <!-- Bluetooth Menu Text -->
     <string name="bt_menu_title">BLUETOOTH DEVICES</string>

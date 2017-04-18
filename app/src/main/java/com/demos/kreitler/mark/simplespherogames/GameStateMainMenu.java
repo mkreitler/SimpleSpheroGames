@@ -38,10 +38,10 @@ public class GameStateMainMenu extends GameStateBase implements IWidgetListener 
         String optionText = res.getString(R.string.main_option_gyro_copter);
         options.add(new WidgetLabel(null, 0, 0, optionText, FONT_SIZE, "white", "fonts/FindleyBold.ttf"));
 
-        optionText = res.getString(R.string.main_option_side_toss);
+        optionText = res.getString(R.string.main_option_bear_race);
         options.add(new WidgetLabel(null, 0, 0, optionText, FONT_SIZE, "white", "fonts/FindleyBold.ttf"));
 
-        optionText = res.getString(R.string.main_option_fuse);
+        optionText = res.getString(R.string.main_option_tilt_drive);
         options.add(new WidgetLabel(null, 0, 0, optionText, FONT_SIZE, "white", "fonts/FindleyBold.ttf"));
 
         optionText = res.getString(R.string.main_action_start);
@@ -120,13 +120,13 @@ public class GameStateMainMenu extends GameStateBase implements IWidgetListener 
                     break;
                 }
 
-                case "side toss": {
-                    game.setState("GameStateSideTossIntro");
+                case "bear race": {
+                    game.setState("GameStateBearRaceIntro");
                     break;
                 }
 
-                case "fuse": {
-                    game.setState("GameStateFuseIntro");
+                case "tilt drive": {
+                    game.setState("GameStateTiltDriveIntro");
                     break;
                 }
 

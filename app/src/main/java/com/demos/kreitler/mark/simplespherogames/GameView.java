@@ -98,6 +98,8 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
         protected GameStateSlingshotDrive gameStateSlingshotDrive               = null;
         protected GameStateMinefieldIntro gameStateMinefieldIntro               = null;
         protected GameStateMinefield gameStateMinefield                         = null;
+        protected GameStateBearRaceIntro gameStateBearRaceIntro                 = null;
+        protected GameStateBearRace gameStateBearRace                           = null;
 
         public GameThread(SurfaceHolder surfaceHolder, Context context,
                           Handler handler) {
@@ -267,6 +269,12 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
 
             gameStateMinefield = new GameStateMinefield(this);
             gameStateTable.put("gamestateminefield", gameStateMinefield);
+
+            gameStateBearRaceIntro = new GameStateBearRaceIntro(this);
+            gameStateTable.put("gamestatebearraceintro", gameStateBearRaceIntro);
+
+            gameStateBearRace = new GameStateBearRace(this);
+            gameStateTable.put("gamestatebearrace",gameStateBearRace);
 
             setState("gameStateIntro");
         }
