@@ -42,6 +42,8 @@ public class GameStateTiltDrive extends GameStateBase implements IWidgetListener
     private final float COLLISION_THRESH        = 140.0f;
     private final float COLLISION_THRESH_LG     = 180.0f;
     private final float SPEED_SCALAR            = 1.0f / 10.0f;
+    private final float DEAD_ZONE               = 0.5f;
+    private final float MAX_ACCEL               = 9.81f;
 
     private WidgetList listOptions      = null;
     private boolean bStarted            = false;
@@ -140,6 +142,8 @@ public class GameStateTiltDrive extends GameStateBase implements IWidgetListener
         if (bStarted) {
             float heading = (float)Math.atan2(ay, -ax);
             float speed = (float)Math.sqrt(ax * ax + ay * ay);
+
+            speed = (float)Math.sqrt(Math.max(0.f, speed - DEAD_ZONE) / (MAX_ACCEL - DEAD_ZONE)) * MAX_ACCEL;
 
             heading = heading * 180.0f / (float)Math.PI;
 
