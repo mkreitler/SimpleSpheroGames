@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SimpleSpheroGames</string>
+    <string name="logo_text">Sphero</string>
+    <string name="intro_text">Tap to begin</string>
+    <string name="search_stage_01">Searching for Sphero...</string>
+    <string name="search_stage_02">...connecting to Sphero...</string>
+    <string name="search_stage_03">Connected!</string>
+    <string name="stage_time">Search time: </string>
+    <string name="seconds">sec</string>
+    <string name="score">Score: </string>
+    <string name="time">Time: </string>
+    <string name="tap_to_play">Tap to start playing</string>
+    <string name="game_over">GAME OVER</string>
+
+    <!-- Main Menu Text -->
+    <string name="main_menu_title">MAIN MENU</string>
+    <string name="main_option_side_toss">Side Toss</string>
+    <string name="main_option_gyro_copter">Gyro Copter</string>
+    <string name="main_option_fuse">Fuse</string>
+    <string name="main_option_tilt_drive">Tilt Drive</string>
+    <string name="main_option_slingshot">Slingshot</string>
+    <string name="main_option_minefield">Minefield</string>
+    <string name="main_action_start">[START]</string>
+
+    <!-- Action Text -->
+    <string name="action_close">[CLOSE]</string>
+
+    <!-- SideToss Text -->
+    <string name="side_toss_title">SIDE_TOSS</string>
+    <string name="side_toss_debug_ax">Accel X:</string>
+    <string name="side_toss_ready">Ready!</string>
+    <string name="side_toss_whee">WHEE!!!</string>
+
+    <!-- Fuse Text -->
+    <string name="fuse_title">FUSE</string>
+    <string name="fuse_instructions">Draw to Drive </string>
+
+    <!-- Fuse Text -->
+    <string name="tilt_to_drive_title">TILT TO DRIVE</string>
+    <string name="tilt_to_drive_data">Accel: </string>
+    <string name="tilt_to_drive_time">Drive Time: </string>
+    <string name="tilt_to_drive_col_sm">Collision Small: </string>
+    <string name="tilt_to_drive_col_md">Collision Medium: </string>
+    <string name="tilt_to_drive_col_lg">Collision Large: </string>
+
+    <!-- GyroCopter Text -->
+    <string name="gyro_copter_title">Gyro Copter</string>
+    <string name="gyro_debug_omegaZ">Gyro Z:</string>
+
+    <!-- Slingshot Text -->
+    <string name="slingshot_title">Slingshot</string>
+
+    <!-- Minefield Text -->
+    <string name="minefield_title">Minefield</string>
+
+    <!-- Bluetooth Menu Text -->
+    <string name="bt_menu_title">BLUETOOTH DEVICES</string>
+</resources>

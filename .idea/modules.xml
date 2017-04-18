@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RobotLibrary/RobotLibrary.iml" filepath="$PROJECT_DIR$/RobotLibrary/RobotLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleSpheroGames.iml" filepath="$PROJECT_DIR$/SimpleSpheroGames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demogui/demogui.iml" filepath="$PROJECT_DIR$/demogui/demogui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_demo_bluetooth/lib_demo_bluetooth.iml" filepath="$PROJECT_DIR$/lib_demo_bluetooth/lib_demo_bluetooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_demo_sphero/lib_demo_sphero.iml" filepath="$PROJECT_DIR$/lib_demo_sphero/lib_demo_sphero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_demo_sprites/lib_demo_sprites.iml" filepath="$PROJECT_DIR$/lib_demo_sprites/lib_demo_sprites.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_demo_ui/lib_demo_ui.iml" filepath="$PROJECT_DIR$/lib_demo_ui/lib_demo_ui.iml" />
+    </modules>
+  </component>
+</project>

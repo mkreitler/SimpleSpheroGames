@@ -1,0 +1,1 @@
+include ':app', ':lib_demo_ui', ':lib_demo_sprites', ':lib_demo_bluetooth', ':lib_demo_sphero', ':RobotLibrary', ':demogui'

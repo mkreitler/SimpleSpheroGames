@@ -1,0 +1,17 @@
+package com.demos.kreitler.mark.lib_demo_sphero;
+
+import java.util.Vector;
+
+/**
+ * Created by Mark on 7/6/2016.
+ */
+public class Robot {
+    // Static Interface ////////////////////////////////////////////////////////////////////////////
+    // Instance Interface //////////////////////////////////////////////////////////////////////////
+    public void Update(int dtMS) {
+
+    }
+
+    // Instance Implementation /////////////////////////////////////////////////////////////////////
+    private Vector<IRobotCommand> commands = new Vector<IRobotCommand>();
+}
